@@ -50,6 +50,16 @@ const resources = {
     address: "Address",
     allRightsReserved: "All Rights Reserved.",
     memoryFoamProducts: "memoryFoamProducts",
+    industries_subtitle: "INDUSTRIES WE SERVE",
+    industries_title: "Redefining Comfort Across Domains",
+    industries_description:
+      "At FomaLux, we deliver premium foam solutions tailored for diverse industries, ensuring comfort, durability, and innovation in every product.",
+    mattress: "Mattress Manufacturing",
+    furniture: "Furniture Upholstery",
+    construction: "Construction & Insulation",
+    logistics: "Logistics & Packaging",
+    eco_friendly: "Eco-Friendly Solutions",
+    warehouse: "Warehouse Storage",
     },
   },
   fr: {
@@ -98,6 +108,16 @@ const resources = {
       phone: "Téléphone",
       address: "Adresse",
       allRightsReserved: "Tous droits réservés.",
+      industries_subtitle: "LES INDUSTRIES QUE NOUS SERVONS",
+        industries_title: "Redéfinir le confort à travers les domaines",
+        industries_description:
+          "Chez FomaLux, nous proposons des solutions en mousse de qualité supérieure adaptées à diverses industries, garantissant confort, durabilité et innovation dans chaque produit.",
+        mattress: "Fabrication de matelas",
+        furniture: "Rembourrage de meubles",
+        construction: "Construction & Isolation",
+        logistics: "Logistique & Emballage",
+        eco_friendly: "Solutions Écologiques",
+        warehouse: "Stockage en Entrepôt",
      
      },
   },
