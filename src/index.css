@@ -531,7 +531,7 @@ p {
     height: 100px;
     left: 60%;
     position: absolute; /* Ensure it flows naturally in the layout */
-    top: 30%;
+    top: -50%;
   }
   
   .floating-icon-2 {
