@@ -168,7 +168,6 @@ header .menu-icon {
   justify-content: center;
   gap: 20px; /* Space between images */
   margin-top: 3rem; /* Space between text and images */
-  bottom: 50%;
 }
 
 .hero-person {
@@ -177,6 +176,7 @@ header .menu-icon {
   z-index: 2;
   animation: float-person 2.5s ease-in-out infinite;
   position: relative;
+  bottom: 50%;
 }
 
 .floating-icon {
