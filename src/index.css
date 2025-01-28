@@ -140,6 +140,7 @@ header .menu-icon {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   cursor: pointer;
   position: relative;
+  bottom: auto;
 }
 
 .cta-button:hover {
