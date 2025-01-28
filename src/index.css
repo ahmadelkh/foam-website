@@ -91,7 +91,7 @@ header .menu-icon {
   flex-direction: column; /* Stack content vertically */
   align-items: center;
   justify-content: flex-start; /* Push content to the top */
-  height: 100vh; /* Increased height for better layout */
+  height: 130vh; /* Increased height for better layout */
   background: linear-gradient(135deg, #1e1533, #311d4c);
   padding: 5% 10%;
   color: white;
@@ -140,7 +140,6 @@ header .menu-icon {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   cursor: pointer;
   position: relative;
-  bottom: 80%;
 }
 
 .cta-button:hover {
