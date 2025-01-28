@@ -193,7 +193,7 @@ header .menu-icon {
   height: 200px;
   position: absolute;
   right: 30%;
-  bottom: 70%;
+  bottom: 50%;
  
 }
 
@@ -203,7 +203,7 @@ header .menu-icon {
   height: 350px;
   position: absolute;
   right: 40%;
-  bottom:70%;
+  bottom:50%;
 }
 .counters {
   display: flex;
