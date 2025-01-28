@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next"; // Import translation hook
 import { FaBed, FaCouch, FaBuilding, FaTruck, FaRecycle, FaWarehouse } from "react-icons/fa"; // Icons
 import "../index.css"; // Ensure correct styling
 
