@@ -140,7 +140,6 @@ header .menu-icon {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   cursor: pointer;
   position: relative;
-  bottom: auto;
 }
 
 .cta-button:hover {
@@ -177,7 +176,7 @@ header .menu-icon {
   z-index: 2;
   animation: float-person 2.5s ease-in-out infinite;
   position: relative;
-  bottom: 50%;
+  top: 50%;
 }
 
 .floating-icon {
