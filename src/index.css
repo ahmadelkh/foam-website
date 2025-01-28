@@ -176,7 +176,7 @@ header .menu-icon {
   z-index: 2;
   animation: float-person 2.5s ease-in-out infinite;
   position: relative;
-  top: 50%;
+  
 }
 
 .floating-icon {
