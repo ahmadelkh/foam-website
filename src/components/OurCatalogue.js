@@ -35,10 +35,11 @@ const OurCatalogue = () => {
   const formatGoogleDriveLink = (url) => {
     if (url.includes("drive.google.com/file/d/")) {
       const fileId = url.split("/d/")[1].split("/view")[0];
-      return `https://drive.google.com/uc?export=view&id=${fileId}`;
+      return `https://drive.google.com/thumbnail?id=${fileId}`;
     }
-    return url; // Return the original if it's already in correct format
+    return url; // Return the original if it's already correct
   };
+  
   
 
   return (
