@@ -20,7 +20,7 @@ const App = () => {
         <CountersSection />
         <OurWork />
         <OurCatalogue />
-        <AddProduct />
+        
         <LocationsSection />
         <Footer />
       </div>
