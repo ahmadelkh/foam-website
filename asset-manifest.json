@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/foam-website/static/css/main.a14fb6e5.css",
-    "main.js": "/foam-website/static/js/main.d92524d6.js",
+    "main.js": "/foam-website/static/js/main.1f38031f.js",
     "static/media/Fomalux.png": "/foam-website/static/media/Fomalux.655cec0ec54bb4215280.png",
     "static/media/person.png": "/foam-website/static/media/person.61534249ece5aa41f876.png",
     "static/media/document.png": "/foam-website/static/media/document.bced0a1aeb23b9851713.png",
@@ -9,10 +9,10 @@
     "static/media/city1.jpg": "/foam-website/static/media/city1.a296128a50ae114b5b37.jpg",
     "index.html": "/foam-website/index.html",
     "main.a14fb6e5.css.map": "/foam-website/static/css/main.a14fb6e5.css.map",
-    "main.d92524d6.js.map": "/foam-website/static/js/main.d92524d6.js.map"
+    "main.1f38031f.js.map": "/foam-website/static/js/main.1f38031f.js.map"
   },
   "entrypoints": [
     "static/css/main.a14fb6e5.css",
-    "static/js/main.d92524d6.js"
+    "static/js/main.1f38031f.js"
   ]
 }
