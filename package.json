@@ -7,6 +7,8 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "firebase": "^11.2.0",
+    "framer-motion": "^12.0.6",
     "i18next": "^23.x.x",
     "react": "^18.2.0",
     "react-countup": "^6.5.3",

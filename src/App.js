@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 import AboutUsSection from "./components/AboutUsSection";
 import FlipBox from "./components/ServiceBoxes";
 import OurWork from "./components/OurWork";
-
+import OurCatalogue from "./components/OurCatalogue";
+import AddProduct from "./components/AddProduct"; 
 const App = () => {
   return (
     <I18nextProvider i18n={i18n}>
@@ -18,6 +19,8 @@ const App = () => {
         <AboutUsSection />
         <CountersSection />
         <OurWork />
+        <OurCatalogue />
+        <AddProduct />
         <LocationsSection />
         <Footer />
       </div>

@@ -947,3 +947,95 @@ p {
     font-size: 16px;
   }
 }
+
+/* 📌 Catalogue Section */
+.catalogue-container {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.catalogue-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.catalogue-title::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background: #ffcc00;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+/* 📌 Catalogue Grid */
+.catalogue-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* 📌 Catalogue Item */
+.catalogue-item {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.catalogue-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 40px rgba(255, 204, 0, 0.6);
+}
+
+/* 📌 Catalogue Image */
+.catalogue-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* 📌 Catalogue Info */
+.catalogue-info {
+  margin-top: 15px;
+}
+
+.catalogue-info h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.catalogue-info p {
+  font-size: 1.2rem;
+  color: #ffcc00;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+  .catalogue-title {
+    font-size: 2.5rem;
+  }
+  .catalogue-grid {
+    grid-template-columns: 1fr;
+  }
+}
