@@ -46,10 +46,10 @@ const Footer = () => {
             <a href="mailto:info@fomalux.com">info@fomalux.com</a>
           </p>
           <p>
-            {t("phone")}: +123 456 789
+            {t("phone")}: +243 900 091 000
           </p>
           <p>
-            {t("address")}: Lubumbashi, Congo
+            {t("address")}: 07,Avenue Hewa Bora, Quartier Industriel.
           </p>
         </div>
       </div>
